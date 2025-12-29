@@ -15,6 +15,7 @@ description: Generates Nano Banana Pro prompts for original character designs. U
    - ポップ調
    - リアル調
    - マスコット調
+   - 手書き・ミニマル調
 4. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
 5. **バリエーション提案**（任意）: 表情/ポーズ/衣装差分
 6. **成果物保存**:
