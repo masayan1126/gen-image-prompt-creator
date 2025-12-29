@@ -17,7 +17,10 @@ description: Generates Nano Banana Pro prompts for blog and YouTube thumbnail im
    - コンセプト型
    - 比較型
 4. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
-5. **進捗更新**: thumbnail-queue.md
+5. **成果物保存**:
+   - プロンプト: `outputs/thumbnail/{タイトル}.md`
+   - 生成画像: `outputs/thumbnail/images/{タイトル}.png`
+6. **進捗更新**: thumbnail-queue.md
 
 ## 参照ファイル
 

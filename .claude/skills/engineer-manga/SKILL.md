@@ -16,7 +16,10 @@ description: Generates Nano Banana Pro prompts for 4-panel engineer humor comics
    - キャラ固定ギャグ: 2-4コマ、表情重視
 3. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
 4. **Xポスト文面生成**: ハッシュタグ付き
-5. **進捗更新**: manga-ideas.md を更新
+5. **成果物保存**:
+   - プロンプト: `outputs/engineer-manga/{タイトル}.md`
+   - 生成画像: `outputs/engineer-manga/images/{タイトル}.png`
+6. **進捗更新**: manga-ideas.md を更新
 
 ## 参照ファイル
 

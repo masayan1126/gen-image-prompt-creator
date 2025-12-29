@@ -17,7 +17,10 @@ description: Generates Nano Banana Pro prompts for original character designs. U
    - マスコット調
 4. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
 5. **バリエーション提案**（任意）: 表情/ポーズ/衣装差分
-6. **進捗更新**: character-designs.md
+6. **成果物保存**:
+   - プロンプト: `outputs/character/{タイトル}.md`
+   - 生成画像: `outputs/character/images/{タイトル}.png`
+7. **進捗更新**: character-designs.md
 
 ## 参照ファイル
 
