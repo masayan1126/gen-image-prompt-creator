@@ -20,11 +20,15 @@ description: Generates Nano Banana Pro prompts for original character designs. U
    - **スケッチ調**（鉛筆・デッサン/水彩/ボールペン/クレヨン）
 4. **プロンプト生成**: PROMPT_TEMPLATE.md 使用
    - インコ×スケッチ調の場合は専用テンプレート使用
-5. **バリエーション提案**（任意）: 表情/ポーズ/衣装差分
-6. **成果物保存**:
+5. **タイトル提案**: 作品にふさわしいタイトル案を3〜5個提示
+   - 絵本風なら擬音語・問いかけ（「ぴょん！」「なあに？」）
+   - アート作品なら情景・雰囲気（「おさんぽ日和」「静かな午後」）
+   - キャラクター名があれば名前を活かす
+6. **バリエーション提案**（任意）: 表情/ポーズ/衣装差分
+7. **成果物保存**:
    - プロンプト: `outputs/character/{タイトル}.md`
    - 生成画像: `outputs/character/images/{タイトル}.png`
-7. **進捗更新**: character-designs.md
+8. **進捗更新**: character-designs.md
 
 ## 参照ファイル
 
