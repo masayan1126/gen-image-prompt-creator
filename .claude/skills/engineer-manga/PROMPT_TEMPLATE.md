@@ -2,59 +2,64 @@
 
 > **重要**: プロンプトを画像AIに入力する際は、必ずキャラクターの元画像を一緒に添付してください。
 
-## 基本構造
+## 基本構造（5コンポーネント設計）
 
 ```
-# 役割
-あなたは日本のプロ漫画家です。
+# 1. 役割と目標設定 (Role & Goal)
+あなたは日本のプロ漫画家兼ストーリーボード演出家です。
 
-# 制作目標
 以下のシナリオに基づき、{コマ数}コマ構成のエンジニアあるある漫画を、1枚の高品質なカラー画像として描写してください。
 
 【タイトル】{title}（画像上部に大きく配置）
 
-# フォーマット
+# 2. レイアウトとフォーマット (Layout & Format)
 【形式・レイアウト】{layout}
 【読み順】{reading_order}
 【枠線】黒い枠線と白い余白（solid black panel borders and white gutters）
 
-# スタイル
-【ジャンル・雰囲気】{genre}
-【画風】{art_style}
-【線画】{line_style}
-【演出効果】{effects}
-
-# キャラクター設定（外観の一貫性が最重要）
+# 3. キャラクター設定 (Character Bible) ※外観の一貫性が最重要
 添付画像のキャラクター（男の子とインコたち）を使用。
-添付画像を参照し、外観・プロポーション・配色を全コマで厳密に一貫させてください。
+Use the attached character image as the reference for appearance, proportions, coloring, and emotional style.
+Maintain strict character consistency across all panels.
+外観・プロポーション・配色・表情のスタイルを全コマで厳密に一貫させてください。
 {character_role}
 
 【背景設定】{background}
 
-# シナリオ
+# 4. シナリオ (Scenario)
 ## コマ1
 - 場面設定: {setting_1}
+- カメラ: {shot_1}（ワイド/ミディアム/クローズアップ/大アップ）
 - 描写: {description_1}
 - セリフ: {dialogue_1}
 - 効果音: {sound_1}
 
 ## コマ2
 - 場面設定: {setting_2}
+- カメラ: {shot_2}
 - 描写: {description_2}
 - セリフ: {dialogue_2}
 - 効果音: {sound_2}
 
 ## コマ3
 - 場面設定: {setting_3}
+- カメラ: {shot_3}
 - 描写: {description_3}
 - セリフ: {dialogue_3}
 - 効果音: {sound_3}
 
 ## コマ4
 - 場面設定: {setting_4}
+- カメラ: {shot_4}
 - 描写: {description_4}
 - セリフ: {dialogue_4}
 - 効果音: {sound_4}
+
+# 5. 演出とスタイル (Direction & Style)
+【ジャンル・雰囲気】{genre}
+【画風】{art_style}
+【線画】{line_style}
+【演出効果】{effects}
 ```
 
 ---
